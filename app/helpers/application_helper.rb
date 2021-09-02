@@ -1,5 +1,5 @@
 module ApplicationHelper
-  def react_component(component_name, props)
+  def react_component(component_name, props = {})
     content_tag(
       'div',
       data: {

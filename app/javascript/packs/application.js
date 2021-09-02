@@ -9,7 +9,8 @@ import * as ActiveStorage from "@rails/activestorage"
 import "channels"
 import mount from '../mount'
 import Hello from './hello_react'
-mount({Hello})
+import Books from '../Books'
+mount({Hello, Books})
 
 Rails.start()
 Turbolinks.start()
